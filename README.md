@@ -27,10 +27,10 @@
       Initially I get one decimal value as input from the user. And after that I used inbuilt python functions like bin(), oct(), hex() to get binary, octal, hexadecimal 
       value for that input respectively. Finally display it everything.
       
- 6.  Ascii value for given character :-
+ 6.  Ascii value for given character :-   
       Intially I get one character value as input from the user. And after that I used inbuilt python function ord() to get ascii value for the input.Finally I displayed 
       that ascii value.
       
-7.  User Application (name, age, gender, salary, state, city) :-
+7.  User Application (name, age, gender, salary, state, city) :-    
       Get string as input for name, age, gender, state, city, and also get one float value for salary from the user. Finally I display it everything to the user.
  
