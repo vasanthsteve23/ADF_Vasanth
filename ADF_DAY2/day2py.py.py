@@ -25,7 +25,7 @@ try:
                else:
                  vas.append(s)
         print(vas)
-        with open('3rd.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s ' % items)
             print("File written successfully. Check out \"3rd.txt\" file")
@@ -54,7 +54,7 @@ try:
                        vas.append(s)
                 count=count+1
         print(vas)
-        with open('5th.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s ' % items)
             print("File written successfully. Check out \"5th.txt\" file")
@@ -80,7 +80,7 @@ try:
          count=count+1
         print(e)
         vas.append(e)
-        with open('blank.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s ' % items)
             print("File written successfully. Check out \"blank.txt\" file")
@@ -99,7 +99,7 @@ try:
           if hu!="":
             vas.append(hu)
         print(vas)
-        with open('vowels.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s ' % items)
             print("File written successfully. Check out \"vowels.txt\" file")
@@ -118,7 +118,7 @@ try:
             if hu != "":
                 t=hu+";\n"
                 vas.append(t)
-        with open('semi.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s' % items)
             print("File written successfully. Check out \"semi.txt\" file")
@@ -180,7 +180,7 @@ try:
         vas1 = []
         vas1.append(num)
         print(num)
-        with open('max.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas1:
                 f.write('%s ' % items)
             print("File written successfully")
@@ -202,7 +202,7 @@ try:
                 # print(s1)
                 if s1 == s and s != "":
                     vas.append(s)
-        with open('pali.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in vas:
                 f.write('%s ' % items)
             print("File written successfully")
@@ -223,7 +223,7 @@ try:
                 if s != "":
                     vas.add(s)
         l = list(vas)
-        with open('unique.txt', 'w') as f:
+        with open('output.txt', 'w') as f:
             for items in l:
                 f.write('%s ' % items)
             print("File written successfully")
