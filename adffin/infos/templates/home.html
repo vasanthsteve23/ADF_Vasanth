@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+{% block body %}
+
+   <h1>This is our home page</h1>
+   <p>Welcome to home page</p>
+   <h1>My name is {{name}}</h1>
+
+   {{list}}
+
+   {% for names in list %}
+   <ul>
+      <li>{{names}}</li>
+   </ul>
+   {% endfor %}
+
+   {% if num == 50 %}
+   <h1>TRUE</h1>
+   {% else %}
+   <h1>FALSE</h1>
+   {% endif %}
+
+    <h1>From Database</h1>
+    <h3>{{data.author}}</h3>
+    <h3>{{data.title}}</h3>
+    <h3>{{data.description}}</h3>
+
+{% endblock %}
